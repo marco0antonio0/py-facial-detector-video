@@ -21,7 +21,7 @@ Este projeto implementa um sistema de reconhecimento facial em tempo real usando
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/marco0antonio0/py-facial-detector-video
    cd seu-repositorio
    ```
 
@@ -35,8 +35,10 @@ Este projeto implementa um sistema de reconhecimento facial em tempo real usando
 
 ## Uso
 
-1. Adicione as imagens das pessoas que deseja reconhecer nos diretórios apropriados.
-
+1. Adicione as imagens das pessoas que deseja reconhecer nos diretórios apropriados no diretorio images.
+   ```bash
+   ./images/
+   ```
 2. Execute o script principal:
 
    ```bash

@@ -8,7 +8,7 @@ from services.load_known_faces import (
 
 def main():
 
-    directory = "/home/marco/Documentos/dev/py-facial-detector-video/images"
+    directory = "./images"
     # Carrega as codificações faciais e os nomes a partir dos diretórios
     known_face_encodings, known_face_names = load_known_faces(directory)
 
