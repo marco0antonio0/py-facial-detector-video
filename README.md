@@ -18,10 +18,13 @@ Este projeto implementa um sistema de reconhecimento facial em tempo real usando
 
 ## Instalação
 
-1. Clone o repositório:
+1. Clone o repositório e acesse a pasta do projeto:
 
    ```bash
    git clone https://github.com/marco0antonio0/py-facial-detector-video
+   ```
+
+    ```bash
    cd seu-repositorio
    ```
 
@@ -42,7 +45,7 @@ Este projeto implementa um sistema de reconhecimento facial em tempo real usando
 2. Execute o script principal:
 
    ```bash
-   python main.py
+   python3 app.py
    ```
 
    Isso iniciará a captura de vídeo e o sistema tentará reconhecer as faces em tempo real.
