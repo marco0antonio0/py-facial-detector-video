@@ -1,11 +1,12 @@
 
 # Reconhecimento Facial em Vídeo
-
+![img](imagesReadme/banner.png)
 Este projeto implementa um sistema de reconhecimento facial em tempo real usando a webcam. Ele carrega as codificações faciais conhecidas a partir de imagens armazenadas em diretórios específicos e então processa o vídeo capturado pela webcam para identificar as faces presentes.
 
 ## Estrutura do Projeto
 
 - **`main.py`**: O ponto de entrada do sistema. Configura a captura de vídeo e coordena as etapas de processamento e exibição.
+- **`images/`**: Adicione Imagens para dectção facial, sendo o titulo da imagem vai ser usado como label identificador na imagem
 - **`services/`**:
   - **`load_face_encodings.py`**: Carrega as codificações faciais conhecidas a partir das imagens em diretórios.
   - **`draw_results.py`**: Desenha os resultados de reconhecimento no frame de vídeo.
